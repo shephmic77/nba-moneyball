@@ -1,0 +1,2 @@
+source,model,players_reported_in_notebook,features,test_split,random_state,RMSE_dollars,R2,note
+NBA_MoneyBall_v1.ipynb saved output,LinearRegression,1151,12,0.2,42,6633734.01,0.5878,Historical notebook output. The original Player-only merge duplicated traded-player rows; the clean final script fixes this by selecting one row per player.

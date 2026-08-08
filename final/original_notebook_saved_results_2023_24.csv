@@ -1,0 +1,31 @@
+SavedResultGroup,Player,ActualSalary_M,PredictedSalary_M,SalaryGap_M
+underpaid,Tyrese Maxey,4.47,29.15,24.67
+underpaid,Desmond Bane,3.96,24.43,20.47
+underpaid,Tyrese Haliburton,5.98,25.37,19.39
+underpaid,Cam Thomas,2.31,20.01,17.7
+underpaid,Alperen Sengun,3.64,21.01,17.37
+underpaid,Eric Gordon,3.29,19.25,15.96
+underpaid,Jalen Williams,4.69,20.59,15.9
+underpaid,Immanuel Quickley,4.3,19.98,15.69
+underpaid,Russell Westbrook,3.95,19.38,15.43
+underpaid,Kelly Oubre Jr.,2.98,17.49,14.51
+overpaid,Ben Simmons,39.02,6.44,-32.58
+overpaid,Bradley Beal,48.13,23.38,-24.75
+overpaid,Gordon Hayward,34.31,10.84,-23.47
+overpaid,Gordon Hayward,34.31,10.93,-23.38
+overpaid,Gordon Hayward,34.31,11.44,-22.87
+overpaid,Zach LaVine,41.25,20.88,-20.37
+overpaid,Klay Thompson,44.5,25.07,-19.44
+overpaid,Gordon Hayward,34.31,15.13,-19.18
+overpaid,Gordon Hayward,34.31,15.21,-19.09
+overpaid,Rudy Gobert,42.22,23.32,-18.9
+under_$1M,Javonte Green,0.27,13.78,13.51
+under_$1M,Danny Green,0.21,7.99,7.78
+under_$1M,Isaiah Thomas,0.49,8.11,7.62
+under_$1M,Zavier Simpson,0.21,5.74,5.53
+under_$1M,RaiQuan Gray,0.15,5.19,5.05
+under_$1M,Jaylen Nowell,0.41,5.39,4.98
+under_$1M,Jaylen Nowell,0.41,5.35,4.94
+under_$1M,Jaylen Nowell,0.41,5.12,4.71
+under_$1M,Kobi Simmons,0.12,4.79,4.67
+under_$1M,Mamadi Diakite,0.73,5.38,4.64
