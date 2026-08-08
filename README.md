@@ -104,3 +104,84 @@ nba-moneyball/
 │   ├── original_notebook_saved_results_2023_24.csv
 │   └── requirements.txt
 └── portfolio/
+```
+
+## Running the Final Model
+
+From the `final/` folder:
+
+```bash
+pip install -r requirements.txt
+python nba_moneyball_final.py
+```
+
+The script uses the local statistical datasets and retrieves 2023-24 salary information.
+
+It exports:
+
+```text
+player_valuations_2023_24.csv
+undervalued_players_2023_24.csv
+overvalued_players_2023_24.csv
+model_summary_2023_24.csv
+```
+
+## Limitations
+
+Salary is not determined only by basketball production.
+
+Important factors not fully represented by the model include:
+
+- rookie-scale contracts
+- maximum-contract rules
+- contract timing
+- age and projected development
+- injury history
+- positional scarcity
+- free-agent market conditions
+- team-specific needs
+- reputation
+- negotiation leverage
+- playoff performance
+- defensive and off-ball impact not captured by the chosen statistics
+
+Because of this, the salary gap should be interpreted as **how unusual a player's salary looks relative to players with similar statistical production**, rather than a definitive estimate of a player's true economic value.
+
+## What I Learned
+
+This project helped me practice:
+
+- acquiring and combining data from multiple sources
+- cleaning inconsistent player names
+- handling traded-player duplicates
+- selecting model features
+- building and evaluating regression models
+- interpreting RMSE and R²
+- distinguishing statistical prediction from real-world valuation
+- turning exploratory notebooks into a cleaner reproducible workflow
+
+## Future Improvements
+
+Possible extensions include:
+
+- multi-season salary modeling
+- contract-year and contract-length features
+- age curves
+- rookie and max-contract indicators
+- position and role information
+- defensive impact metrics
+- lineup data
+- shot-location data
+- tracking data
+- nonlinear models
+- regularized regression
+- tree-based models
+- comparison of model performance across methods
+
+A larger version could also ask whether the NBA market systematically pays more for certain types of production than others.
+
+## Author
+
+**Michael Shepherd**
+
+Personal Data Science Project
